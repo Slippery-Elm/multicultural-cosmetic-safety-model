@@ -9,7 +9,7 @@ This repository contains a full-stack data project that evaluates, transforms, a
 * **Business Intelligence / Visualization:** Tableau (Executive dashboard creation, risk segmentation mapping)
 
 ## 🚀 Core Analytical Features
-*   **Cross-Border Regulatory Analytics (SQL):** Utilized advanced SQL Window Functions (`PARTITION BY`, `DENSE_RANK`) inside Google BigQuery to segment and rank chemical hazards across international regulatory frameworks (FDA vs. EU vs. AfCFTA).
+*   **Cross-Border Regulatory Analytics (SQL):** Utilized advanced SQL Window Functions (`PARTITION BY`, `DENSE_RANK`) inside Google BigQuery to segment and rank chemical hazards across international regulatory frameworks (FDA vs. EU).
 *   **Advanced Predictive Risk Weighting (Python):** Developed a multi-factor risk matrix using Pandas and NumPy to dynamically calculate safety scores based on chemical toxicity, exposure types, and skin-barrier vulnerabilities.
 *   **Product Ingredient Scanner (Python):** Built an algorithmic text-parsing tool that accepts unstructured ingredient lists, cross-references them with the transformed database, and outputs a personalized Multicultural Safety Report.
 
@@ -19,5 +19,5 @@ This repository contains a full-stack data project that evaluates, transforms, a
 * **Algorithmic Calculation (Python):** Processed the data frame through **Pandas** to calculate a multi-factor risk matrix. The algorithm multiplies base toxicity weights against application types (leave-on vs. rinse-off) and skin-barrier vulnerabilities to generate an output safety score from 1 to 100.
 
 ## 📊 Business Questions Answered
-* Which cosmetic chemical classes pose the highest physiological risk to populations managing chronic atopic dermatitis or lichen planus?
+* Which cosmetic chemical classes pose the highest physiological risk to populations managing chronic skin conditions?
 * What are the primary regulatory discrepancies where toxic compounds are restricted globally but remain unregulated locally?
