@@ -10,16 +10,18 @@ This creates the master table that holds every tracked compound. Each column inc
 
 ```sql
 CREATE OR REPLACE TABLE cosmetic_safety.toxic_compound_master (
+    chemical_id STRING OPTIONS(description="Primary Key: Sequential Identifier MCSI-001 through MCSI-030"),
     cas_number STRING OPTIONS(description="Chemical Abstracts Service Unique Registry Number"),
     chemical_name STRING OPTIONS(description="Standardized INCI Name"),
-    chemical_class STRING OPTIONS(description="Functional Category: Preservative, Dye, Metal, etc."),
-    ewg_hazard_score INT64 OPTIONS(description="Environmental Working Group Score 1-10"),
-    melanin_interaction STRING OPTIONS(description="Known interaction effects with melanin-rich skin"),
-    chronic_skin_trigger STRING OPTIONS(description="Association with chronic skin conditions (e.g., lichen planus, eczema)"),
+    chemical_class STRING OPTIONS(description="Functional Category: Preservatives, Dyes, Metals, etc."),
+    toxicity_score_ewg INT64 OPTIONS(description="Environmental Working Group Score 1-10"),
+    melanin_interaction STRING OPTIONS(description="Specific Tissue Pathologies for Fitzpatrick IV-VI Complexions"),
+    chronic_skin_trigger STRING OPTIONS(description="Dermatological Flare Conditions: Melasma, Eczema, LPP"),
     regulatory_status_eu STRING OPTIONS(description="SCCS Status: Banned, Restricted, Allowed"),
-    regulatory_status_fda STRING OPTIONS(description="FDA Status: Prohibited, Restricted, Unregulated"),
-    risk_weight_multiplier FLOAT64 OPTIONS(description="Quantitative Disparity Weight"),
-    primary_health_concern STRING OPTIONS(description="Endocrine Disruptor, Carcinogen, Allergen")
+    regulatory_status_fda STRING OPTIONS(description="FDA Status: Banned, Allowed, Unregulated"),
+    primary_health_concern STRING OPTIONS(description="Systemic Risk Profile: Endocrine Disruptor, Carcinogen, Allergen"),
+    risk_weight_multiplier FLOAT64 OPTIONS(description="Quantitative Disparity Weight Scale 1.0 - 2.5"),
+    behavioral_intervention_framework STRING OPTIONS(description="Public Health Framework: HBM or TTM Processes")
 );
 ```
 
@@ -30,16 +32,16 @@ CREATE OR REPLACE TABLE cosmetic_safety.toxic_compound_master (
 Real-world entries are rarely consistent — text fields get entered in different cases, and some fields may be left blank. These two statements standardize casing across text fields (so later comparisons in the DQL section actually match correctly) and fill in a sensible default for any missing risk weight, rather than leaving it null and breaking downstream calculations.
 
 ```sql
--- Standardize text casing across string attributes so later queries match consistently
+-- Standardize text casing across string attributes to match your master data schema
 UPDATE cosmetic_safety.toxic_compound_master
-SET
+SET 
     chemical_name = INITCAP(TRIM(chemical_name)),
     chemical_class = INITCAP(TRIM(chemical_class)),
     regulatory_status_eu = UPPER(TRIM(regulatory_status_eu)),
     regulatory_status_fda = UPPER(TRIM(regulatory_status_fda))
 WHERE cas_number IS NOT NULL;
 
--- Default missing risk weight multipliers to 1.0 (neutral weight) rather than leaving them null
+-- Handle missing values inside the disparity weight column baseline
 UPDATE cosmetic_safety.toxic_compound_master
 SET risk_weight_multiplier = 1.0
 WHERE risk_weight_multiplier IS NULL;
