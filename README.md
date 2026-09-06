@@ -13,8 +13,7 @@ This repository contains a full-stack data project that evaluates, transforms, a
 *   **Advanced Predictive Risk Weighting (Python):** Developed a multi-factor risk matrix using Pandas and NumPy to dynamically calculate safety scores based on chemical toxicity, exposure types, and skin-barrier vulnerabilities.
 *   **Product Ingredient Scanner (Python):** Built an algorithmic text-parsing tool that accepts unstructured ingredient lists, cross-references them with the transformed database, and outputs a personalized Multicultural Safety Report.
 * **Product Ingredient Scanner (Python):** Built an algorithmic text-parsing tool that accepts unstructured ingredient lists, cross-references them with the transformed database, and outputs a personalized Multicultural Safety Report.
-*   **🎮 Interactive Simulation Engine & Visual Dashboard:** Access the complete, live execution environment straight through our scrollable Jupyter Notebook to run the custom [NumPy Toxicological Exposure Game Engine & Seaborn Correlation Heatmap](./notebook/mcsi_toxic_compounds_game.ipynb).
-
+*   **🎮 Interactive Simulation Engine & Visual Dashboard:** Access the complete, live execution environment straight through our scrollable Jupyter Notebook to run the custom [NumPy Toxicological Exposure Game Engine & Seaborn Correlation Heatmap](./notebooks/mcsi_toxic_compounds_game.ipynb).
 
 ## ⚙️ Data Architecture & ETL Pipeline
 * **Ingestion:** Extracted raw chemical hazard datasets, global regulatory statuses (FDA vs. EU), and chronic skin condition triggers into a unified master database.
