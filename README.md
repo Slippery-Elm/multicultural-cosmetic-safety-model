@@ -12,6 +12,9 @@ This repository contains a full-stack data project that evaluates, transforms, a
 *   **Cross-Border Regulatory Analytics (SQL):** Utilized advanced SQL Window Functions (`PARTITION BY`, `DENSE_RANK`) inside Google BigQuery to segment and rank chemical hazards across international regulatory frameworks (FDA vs. EU).
 *   **Advanced Predictive Risk Weighting (Python):** Developed a multi-factor risk matrix using Pandas and NumPy to dynamically calculate safety scores based on chemical toxicity, exposure types, and skin-barrier vulnerabilities.
 *   **Product Ingredient Scanner (Python):** Built an algorithmic text-parsing tool that accepts unstructured ingredient lists, cross-references them with the transformed database, and outputs a personalized Multicultural Safety Report.
+* **Product Ingredient Scanner (Python):** Built an algorithmic text-parsing tool that accepts unstructured ingredient lists, cross-references them with the transformed database, and outputs a personalized Multicultural Safety Report.
+*   **🎮 Interactive Simulation Engine & Visual Dashboard:** Access the complete, live execution environment straight through our scrollable Jupyter Notebook to run the custom [NumPy Toxicological Exposure Game Engine & Seaborn Correlation Heatmap](./notebook/mcsi_toxic_compounds_game.ipynb).
+
 
 ## ⚙️ Data Architecture & ETL Pipeline
 * **Ingestion:** Extracted raw chemical hazard datasets, global regulatory statuses (FDA vs. EU), and chronic skin condition triggers into a unified master database.
