@@ -14,7 +14,8 @@ The MCSI rejects fear-mongering and obscure scoring rules. Our mission is to pro
 ### 🚨 Case Study 1: The Liquid Gloss Preservative & Stability Paradox
 * **Field Target Focus:** The Essence Hydra Kiss Lip Oil (Shade: Kiss From A Rose)
 * **Retail Parameter Benchmark:** Budget-accessible entry tier (< $10.00)
-* **Evaluated Across:** 8 tracking brands (*Essence, NYX, Thread, Elf, Crème, Holler & Glow, Vitamasques, I'M MEME*)
+* **Evaluated Across:** 9 tracking brands (*Essence, NYX, Thread, Elf, Creme, Holler & Glow, The Crème Shope, Vitamasques, I'M MEME*)
+* **Location of Audit** Target
 
 #### 1. The Media Catalyst (The Love Island Effect)
 Modern reality television spaces function as continuous, high-definition cosmetic placement engines. Viewers form strong emotional attachments to onscreen personalities, bypassing traditional ingredient screening when trying to replicate an Islander's signature glossy aesthetic via social commerce streams.
