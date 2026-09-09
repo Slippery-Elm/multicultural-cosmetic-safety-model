@@ -37,6 +37,8 @@ Modern reality television spaces function as continuous, high-definition cosmeti
 #### Analytical Breakdown:
 When audited through traditional binary consumer models, the Essence formulation is penalized severely for containing Phenoxyethanol (CAS 122-99-6). However, the MCSI data infrastructure exposes this methodological flaw. By mapping the regulatory concentration limit alongside the compound's functional necessity, our index shows the ingredient is structurally safe for adult use at its legal 1.0% cap, acting as a critical shield against shelf-rot and active microbial pathogens.
 
+#### 👉 [View the Full, Deep-Dive Case Study 1 Reference Data & Product Matrix](./case_study_1_preservatives.md)
+
 ---
 
 ### 📺 Case Study 2: The Blunt-Force Consumer Marketing Audit & Social Placement Loops
