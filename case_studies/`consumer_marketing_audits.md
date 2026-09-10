@@ -11,6 +11,19 @@ The MCSI rejects fear-mongering and obscure scoring rules. Our mission is to pro
 
 ## 🔬 Flagship Empirical Product Case Studies
 
+### 🛠️ Case Study Technical Tool Selection & Analytical Methodology
+
+To evaluate data variables across these three distinct toxicological and media tracks, the MCSI infrastructure deploys a modular technical stack optimized for chemical calculation, text parsing, and executive visualization:
+
+*   **Google BigQuery (SQL Data Architecture):** Utilized universally across all case studies to execute complex cross-cohort demographic segmentation, manage staging environments, and run conditional relational queries to isolate global regulatory gaps.
+*   **Python Language Stack (`Pandas` & `NumPy` Data Matrix):** 
+    *   *Chemical Weight Calculations (Case Study 1):* Maps target asset ingredient concentrations against strict legal caps.
+    *   *Algorithmic Exposure Weighting (Case Study 3):* Computes multi-factor risk coefficients for leave-on aerosolized silicone resins.
+*   **Natural Language Processing (Python `NLTK` / `VADER` NLP Engines):** Deployed specifically within *Case Study 2* to scrape text logs from high-velocity digital forums. The NLP engine parses raw commentary data to run text-density profiling and automated sentiment analytics to track systemic colorism anomalies targeting dark-skinned creators.
+*   **Tableau BI Platform (Executive Risk Dashboards):** Functions as the central visualization layer across all case studies to convert transformed backend data metrics into scrollable, high-impact risk-segmentation maps and exposure pipelines.
+
+---
+
 ### 🚨 Case Study 1: The Liquid Gloss Preservative & Stability Paradox
 * **Field Target Focus:** The Essence Hydra Kiss Lip Oil (Shade: Kiss From A Rose)
 * **Retail Parameter Benchmark:** Budget-accessible entry tier (< $10.00)
@@ -22,7 +35,7 @@ Modern reality television spaces function as continuous, high-definition cosmeti
 
 #### 2. The Formulation Utility vs. App Binary Scores
 * **The Consumer App Flag:** Consumer apps utilize a binary risk metric, ranking formulations containing Phenoxyethanol at a low **37/100** due to raw industrial hazard profiles.
-* **The Toxicological Reality:** In cosmetic consumer products, Phenoxyethanol acts as an essential preservative capped strictly at **<= 1.0% concentration.** At this threshold, it guarantees adult topical safety by actively preventing microbial, mold, and bacterial growth in wet formulations—a nuance entirely omitted by generic consumer scoring guidelines.
+* **The Toxicological Reality:** In cosmetic consumer products, Phenoxyethanol acts as an essential preservative capped strictly at **≤ 1.0% concentration.** At this threshold, it guarantees adult topical safety by actively preventing microbial, mold, and bacterial growth in wet formulations—a nuance entirely omitted by generic consumer scoring guidelines.
 
 ```text
 ================================================================================================
@@ -42,9 +55,24 @@ When audited through traditional binary consumer models, the Essence formulation
 
 ---
 
-### 📺 Case Study 2: The Blunt-Force Consumer Marketing Audit & Social Placement Loops
+### 📺 Case Study 2: The Consumer Marketing & Social Media Syndication Loops
 
-To map how products are sold, this module evaluates raw, real-world media perceptions and platform architectures for high-velocity reality TV influencers across two mature longitudinal cohorts (Seasons 6 & 7).
+To map how products are sold, this module evaluates raw, real-world media perceptions and platform architectures for high-velocity reality TV influencers across two mature longitudinal cohorts (Seasons 6 & 7). 
+
+While traditional international beauty frameworks rely on highly regulated institutional retail partnerships, modern streaming media environments have decentralized consumer acquisition through rapid algorithmic social tracking loops. This section analyzes the velocity of social commerce syndication pipelines and evaluates how emotional reality-character loops create an active public health data vacuum among vulnerable purchasing demographics
+
+
+```text
+================================================================================================
+[SOCIAL COMMERCE DATA VACUUM AUDIT — CASE STUDY 2]
+================================================================================================
+ • DISTRIBUTION CHANNEL  ➔ Decentralized social tracking loops via streaming affiliate links 📺📱
+ • COHORT TRACKING INDEX ➔ COHORT A: PPG | COHORT B: OLANDRIA (Targeted Demographic Micro-Pools)
+ • THE DATA DISCONNECT   ➔ Rapid recognition algorithms outpace consumer biochemical data literacy.
+ • PUBLIC HEALTH RISK    ➔ High-exposure purchasing driven by emotional reality-character loops,
+                           completely bypassing endocrine disruption & chronic tissue pathology metrics.
+================================================================================================
+```
 
 #### 🟢 Cohort A: The Dual-Engine Collective Unit (Season 6 Reality Syndication)
 * **The Target Framework:** Serena, Leah, and JaNa (The PPG Collective Unit).
@@ -60,7 +88,10 @@ To map how products are sold, this module evaluates raw, real-world media percep
 * **The Intersectional Disparity:** Despite her elite industry backing, Olandria remains intensely polarizing on public internet forums. An audit of digital commentary text (such as threads on public forums compromised by bad-faith users) reveals aggressive colorist text designed to minimize her striking dark-skinned features by claiming her marketability rests purely on body shape and skin tone parameters.
 * **The MCSI Public Health Takeaway:** This cohort proves that an intense polarization index does not decay market velocity; rather, public division and colorism debates function as a paradoxical media engine. Cult-following fan-protection mechanics aggressively accelerate viral brand visibility and product sales, ensuring that dark-skinned creators who capture solo structural power remain highly lucrative assets in multicultural cosmetic placement loops.
 
+#### 👉 [View the Full, Deep-Dive Case Study 2 NLP Sentiment Analysis](./case_study_2_media_loops.md)
+
 ---
+
 ### 🌴 Case Study 3: The 24-Hour Villa Setting Spray Exposure Loop
 
 Since you are intimately familiar with how intense the villa environment gets during long evening filming sessions under high-definition television cameras, let’s deconstruct the toxicological profiling behind waterproof setting sprays—the ultimate viral product category that keeps an Islander's face completely locked through sweat, heat waves, and intense crying sessions.
@@ -98,7 +129,10 @@ While highly effective at blocking moisture from sliding the cosmetic layer off,
 #### 4. The MCSI Database Weighting Factor
 Inside our central `data/toxic_compounds_master.csv` infrastructure, these setting spray ingredients carry an elevated risk profile. Our algorithmic calculation scripts multiply the base toxicity score by a **Risk Weight Multiplier coefficient of 2.2** for leave-on aerosolized resins. This ensures public health researchers running queries in our Google BigQuery database can instantly identify setting sprays as high-risk anomalies for populations predisposed to hyperpigmentation and tissue barriers.
 
+#### 👉 [View the Full, Deep-Dive Case Study 3 Biophysical Exposure Analysis](./case_study_3_setting_sprays.md)
+
 ---
+
 ## 🔎 Core Analytical Inquiries & Data Capabilities
 
 The MCSI database's advanced 12-column architecture is engineered to answer complex, intersectional public health inquiries that traditional, binary consumer apps cannot compute. By running our staged SQL scripts inside Google BigQuery, researchers can instantly resolve the following core hypotheses:
