@@ -79,7 +79,7 @@ To automate this multi-tier concentration and stabilizer validation inside our c
 
 ```sql
 -- Pipeline Query: Institutional Safety-Washing Simulation Engine
--- Repository: multicultural-cosmetic-safety-model/sql/case_study_1_logic.sql
+-- Repository: multicultural-cosmetic-safety-model/case_studies/case_study_1_preservatives.md
 -- NOTE: This query intentionally models a tautological "safe-by-design"
 -- classification system to expose how narrow compliance framing can
 -- rationalize away poor consumer safety scores. Every branch resolves to
