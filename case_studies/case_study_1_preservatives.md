@@ -93,7 +93,7 @@ print(df_audit['mcsi_status'].value_counts())
 
 ## ☁️ Google BigQuery SQL Data Engineering Gateway
 
-To automate this multi-tier concentration and stabilizer validation inside our cloud data warehouse, the MCSI pipeline executes the following conditional logic queries inside Google BigQuery to calculate the mathematical variance metrics natively in the cloud space:
+To automate this multi-tier concentration and stabilizer validation inside the cloud data warehouse, the MCSI pipeline executes the following conditional logic queries inside Google BigQuery to calculate the mathematical variance metrics natively in the cloud space:
 
 ```sql
 -- Pipeline Query: Public Health Exposure Decision Engine (3-Tier Model)
