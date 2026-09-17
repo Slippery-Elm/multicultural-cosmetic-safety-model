@@ -1,0 +1,21 @@
+product_id,brand,product_name,shade_profile,yuka_score,Primary Stabilizer / Preservative System,mcsi_score,mcsi_status
+MCSI-001,e.l.f.,Glow Reviver Lip Oil,Apricot Feelings,21,"Phenoxyethanol + Caprylyl Glycol + Fragrance (Linalool, Limonene)",80,CONDITIONAL WARNING
+MCSI-002,e.l.f.,Glow Reviver Balm,Wild Cherry,7,"Ethylhexylglycerin + Antioxidants (Citrus Aurantium Peel Oil, Linalool)",100,SAFE (PASS)
+MCSI-003,The Crème Shop X Hello Kitty,Banana,Banana,25,Ethylhexylglycerin + Citric Acid,100,SAFE (PASS)
+MCSI-004,The Crème Shop,Crème Kiss and Blush Balm,Watermelon Sugar,0,"1,2-Hexanediol + BHT (App Flag)",0,HIGH-RISK MISMATCH (FAIL)
+MCSI-005,The Crème Shop,Crème Kiss and Blush Balm,Berry Milkshake,0,"1,2-Hexanediol + BHT (App Flag)",0,HIGH-RISK MISMATCH (FAIL)
+MCSI-006,The Crème Shop,Crème Candy Glaze Lip Oil,Berry Crush,31,"Phenoxyethanol + 1,2-Hexanediol + Fragrance",80,CONDITIONAL WARNING
+MCSI-007,I'M MEME,Water Gel Tint,Red Crush,62,"1,2-Hexanediol + Dehydroacetic Acid",100,SAFE (PASS)
+MCSI-008,I'M MEME,Water Gel Tint,Plum Fatale,64,"1,2-Hexanediol + Dehydroacetic Acid",100,SAFE (PASS)
+MCSI-009,I'M MEME,Water Gel Tint,Berry Compote,64,"1,2-Hexanediol + Dehydroacetic Acid",100,SAFE (PASS)
+MCSI-010,I'M MEME,Water Gel Tint,My Cherry,64,"1,2-Hexanediol + Dehydroacetic Acid",100,SAFE (PASS)
+MCSI-011,I'M MEME,Water Gel Tint,Pink Attack,66,"1,2-Hexanediol + Dehydroacetic Acid",100,SAFE (PASS)
+MCSI-012,Thread,Gloss It Lip Gloss,Driven,19,Phenoxyethanol + Caprylyl Glycol + Fragrance,80,CONDITIONAL WARNING
+MCSI-013,Essence,Hydra Kiss Lip Oil,Kiss From a Rose,37,"Phenoxyethanol + Ethylhexylglycerin + Fragrance (Linalool, Citronellol, Limonene)",70,CONDITIONAL WARNING
+MCSI-014,Essence,What a Tint!,01 Kiss From a Rose,43,Radish Root Ferment + Phenoxyethanol,100,SAFE (PASS)
+MCSI-015,Essence,What the Fake!,Oh My Plump!,31,Phenoxyethanol + Ethylhexylglycerin,100,SAFE (PASS)
+MCSI-016,Essence,The Super Balm,01 Balmazing!,43,Shorea Robusta Resin + Vitamin E,100,SAFE (PASS)
+MCSI-017,Essence,Extreme Shine Volume,13 Glazed Berry,35,Caprylyl Glycol + Hydroxyhydrocinnamate,100,SAFE (PASS)
+MCSI-018,NYX Cosmetics,Jelly Job,01 Just Jelly,37,Phenoxyethanol + Caprylyl Glycol,100,SAFE (PASS)
+MCSI-019,Vitamasques,Lip Butter Balm,Wild Cherry,35,"1,2-Hexanediol + Ethyl Hexanediol",100,SAFE (PASS)
+MCSI-020,Holler and Glow,Lip Serum,Coco Donut,17,"Phenoxyethanol + 1,2-Hexanediol + Fragrance",80,CONDITIONAL WARNING
