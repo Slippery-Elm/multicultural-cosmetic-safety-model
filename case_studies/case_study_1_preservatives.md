@@ -97,7 +97,7 @@ To automate this multi-tier concentration and stabilizer validation inside the c
 
 ```sql
 -- Pipeline Query: Public Health Exposure Decision Engine (3-Tier Model)
--- Repository: multicultural-cosmetic-safety-model/sql/case_study_1_logic.sql
+-- Repository: multicultural-cosmetic-safety-model/sql/t.case_study_1_logic.sql
 
 WITH allergen_flags AS (
     SELECT
@@ -146,7 +146,7 @@ ORDER BY mcsi_score ASC;
 
 ## 🎨 Interactive Business Intelligence & Scatter Plot Architecture
 
-To bridge the gap between back-end pipeline math and front-end executive decision-making, the transformed dataset is mapped into an interactive **Tableau Desktop** spatial visualization. By bypassing standard measure aggregations, individual product profiles are plotted as unaggregated vectors to explicitly contrast commercial application scores against the custom MCSI framework.
+To bridge the gap between back-end pipeline math and front-end executive decision-making, the transformed dataset is mapped into an interactive **Tableau Desktop** spatial visualization. By bypassing standard measure aggregations, individual product profiles are plotted as unaggregated vectors to contrast commercial application scores against the custom MCSI framework explicitly.
 
 ### 📐 Visual Canvas Grid Parameters
 
