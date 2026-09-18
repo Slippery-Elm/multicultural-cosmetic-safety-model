@@ -61,7 +61,7 @@ def extract_vader_scores(row):
 # 4. Simultaneously compute and drop metrics across all 16 multi-season rows
 df[['positive_score', 'neutral_score', 'compound_score']] = df.apply(extract_vader_scores, axis=1)
 ```
---
+---
 
 ## 🏛️ Cloud Warehouse Integration: Google BigQuery Window Functions
 Following live programmatic scoring, the cleaned campaign dataset is migrated into the `birmingham_health_core` dataset environment. A non-correlated CTE deploys a `RANK() OVER()` window partition to dynamically compute localized competitor standings by vertical:
@@ -83,10 +83,13 @@ SELECT
 FROM prepared_marketing_metrics
 ORDER BY campaign_type, rank_by_sentiment;
 ```
+---
 
 ## 🎯 Key Analytical Warehouse Insights
 *   🥇 **Shark Beauty (#1 Hair Tools):** Captured an undisputed peak compound sentiment ranking of **`0.8860`** driven by extensive community support for natural hair charisma.
 *   🥈 **NYX Professional Makeup (#2 Cosmetics):** Correctly calculated a slight negative compound lean of **`-0.1280`** alongside a high neutral density of **`0.8890`**. This reflects accurate machine tracking of intense Reddit skepticism regarding reality TV relationship PR campaigns.
+
+---
 
 ## 📊 Business Intelligence Performance Dashboards (Tableau Desktop)
 
