@@ -10,7 +10,7 @@ Automate the evaluation of unstructured digital audience response data for reali
 *   **Data Architecture & Pipelines:** `gspread` Cloud API authorization, automated DataFrame list transformations, and local CSV ingestion.
 *   **Analytical Windows:** Partitioned non-correlated Common Table Expressions (CTEs) leveraging `RANK() OVER()` parameters.
 *   **Business Intelligence Visual Anchor:** Tableau Desktop (Pane-Isolated Horizontal Leaderboards & Volume Scatter Matrices).
-*   **Data Ingestion Constraints:** Google Colab temporary local cache storage. Schema tracking requires precise row list conversions (`df.values.tolist()`) to maintain matrix formatting when executing sheet-overwrites via cloud tokens.
+*   **Data Ingestion Constraints:** Google Colab temporary local cache storage. Schema tracking requires precise row-list conversions (`df.values.tolist()`) to maintain matrix formatting when executing sheet overwrites via cloud tokens.
 
 ---
 
@@ -96,10 +96,11 @@ ORDER BY campaign_type, rank_by_sentiment;
 ### 📈 1. Consumer Sentiment Volume Matrix (Scatter Analysis)
 This multi-dimensional cross-plot charts positive audience distribution metrics against neutral evaluation clusters, mapping independent color spectral arrays to distinct industry marketing verticals. High-impact engagement anomalies (such as Shark Beauty's extreme positivity mapping and NYX Professional Makeup's dense neutrality clustering) are instantly isolated.
 
-![Consumer Sentiment Volume Matrix](case_studies/consumer_sentiment_volume_matrix.png)
+#### 🔗 Interactive Project Gateways
+*   **Live Dashboard Link:** [View the Consumer Sentiment Volume Matrix on Tableau Public](https://public.tableau.com/app/profile/rachel.asante/viz/MCSI-ConsumerSentimentVolumeMatrixTableauPublic/Sheet4#1)
 
 ### 📋 2. Categorical Sentiment Leaderboard (Dynamic Ranks)
 This pane-isolated operational view visually details the results of the backend BigQuery non-correlated partition functions. Campaigns are dynamically segmented and sorted by compound weight scales to provide real-time competitor tracking models across cosmetics, hair care, and beverage categories.
 
-![Categorical Sentiment Leaderboard](case_studies/categorical_sentiment_leaderboard.png)
-
+#### 🔗 Interactive Project Gateways
+*   **Live Dashboard Link:** [View the Categorical Sentiment Leaderboard on Tableau Public](https://public.tableau.com/app/profile/rachel.asante/viz/MCSI-CategoricalSentimentLeaderboard/Sheet5)
