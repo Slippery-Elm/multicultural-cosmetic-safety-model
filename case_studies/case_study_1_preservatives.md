@@ -11,6 +11,16 @@ Rather than resolving every formulation to a flat pass, this model applies a cus
 
 ---
 
+here]
+
+### 🛠️ Technical Stack & Environmental Constraints
+*   **Core Execution Language:** Python 3.10+ (`pandas` vectorized mapping via `.apply()`).
+*   **Data Architecture:** Tabular CSV flat-file management under a local relational scheme.
+*   **Algorithmic Boundaries:** Strict runtime string-casting (`str()`) to prevent processing null-pointer exceptions on text-heavy columns.
+*   **Execution Environment:** Ephemeral cloud runtime compute backend (Google Colab).
+
+---
+
 ## 📊 Transformed Ingestion Dataset: 20-Product Audit Matrix
 
 The following structured matrix compiles the empirical tracking data pulled from live retail scanning assets. This data layer serves as the primary ingestion source for the Python text-parsing extraction pipelines and the cloud data warehouse:
