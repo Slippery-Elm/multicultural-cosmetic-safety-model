@@ -11,8 +11,6 @@ Rather than resolving every formulation to a flat pass, this model applies a cus
 
 ---
 
-here]
-
 ### 🛠️ Technical Stack & Environmental Constraints
 *   **Core Execution Language:** Python 3.10+ (`pandas` vectorized mapping via `.apply()`).
 *   **Data Architecture:** Tabular CSV flat-file management under a local relational scheme.
