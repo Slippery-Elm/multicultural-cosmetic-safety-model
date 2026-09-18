@@ -14,8 +14,8 @@ Rather than resolving every formulation to a flat pass, this model applies a cus
 ### 🛠️ Technical Stack & Environmental Constraints
 *   **Core Execution Language:** Python 3.10+ (`pandas` vectorized mapping via `.apply()`).
 *   **Data Architecture:** Tabular CSV flat-file management under a local relational scheme.
-*   **Algorithmic Boundaries:** Strict runtime string-casting (`str()`) to prevent processing null-pointer exceptions on text-heavy columns.
-*   **Execution Environment:** Ephemeral cloud runtime compute backend (Google Colab).
+*   **Algorithmic Boundaries:** String casting (`str()`) to prevent processing null-pointer exceptions on text-heavy columns.
+*   **Execution Environment:** Ephemeral cloud runtime backend (Google Colab).
 
 ---
 
