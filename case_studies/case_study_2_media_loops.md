@@ -104,3 +104,7 @@ This pane-isolated operational view visually details the results of the backend 
 
 #### 🔗 Interactive Project Gateways
 *   **Live Dashboard Link:** [View the Categorical Sentiment Leaderboard on Tableau Public](https://public.tableau.com/app/profile/rachel.asante/viz/MCSI-CategoricalSentimentLeaderboard/Sheet5)
+
+---
+
+### 👉 [View the Full, Deep-Dive Case Study 3: Biophysical Exposure Analysis here](./case_study_3_setting_sprays.md)
