@@ -162,7 +162,7 @@ ORDER BY
 ```
 ---
 
-#### 📊 Business Intelligence & Tableau Public Interactive Matrix
+### 📊 Business Intelligence & Tableau Public Interactive Matrix
 The processed data outputs are visualized via an interactive step-down risk funnel matrix deployed natively on **Tableau Public**. The operational interface features:
 *   **Graph Title Designation:** `Love Island USA Cosmetovigilance Audit: Leave-On Aerosol Silicone Exposure Risk Cascade`
 *   **Dynamic Dropdown Parameter Filtering:** Allows clinical researchers, epidemiologists, and cross-functional stakeholders to seamlessly filter toxicological risk views dynamically by specific show production phases matching the `production_timeline_marker`.
@@ -174,3 +174,5 @@ The processed data outputs are visualized via an interactive step-down risk funn
 *   **The Ingestion Variance Gap:** Cross-sectional analysis reveals that standard consumer safety registries underreport the tissue-occlusion rate of *Trimethylsiloxysilicate* by up to 54% when delivered via leave-on aerosolized pathways versus traditional topical emulsions.
 *   **The Multiplier Velocity Catalyst:** Applying the calibrated 2.2 Risk Weight Multiplier inside the BigQuery CTE structure successfully pulls hidden high-risk multicultural formulations to the absolute top of the processing ledger (`regional_exposure_velocity_rank = 1`), drastically shortening clinical screening cycles for public health epidemiologists.
 *   **The Cascade Funnel Resolution:** By linking the Tableau Public interactive drop-down parameters directly to cloud data instances, research stakeholders can isolate volatile chemical clusters across Fitzpatrick Type IV-VI phenotypes in less than 3 seconds, entirely eliminating multi-week manual spreadsheet bottlenecks.
+
+### 👉 **Back Page:** [View the Full, Deep-Dive Case Study 2 NLP Sentiment Analysis here](./case_study_2_media_loops.md)
