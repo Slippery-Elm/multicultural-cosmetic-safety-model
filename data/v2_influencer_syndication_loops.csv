@@ -1,0 +1,17 @@
+trend_id,brand_partner,campaign_type,placement_driver,raw_consumer_text,positive_score,neutral_score,compound_score
+1,Cécred,Hair & Personal Care,Season 6 Reunion Drop,Extreme pride regarding high-end recognition over fast fashion. Flood of TikTok/Reddit hype.,0.197,0.803,0.4005
+2,Spotify,Digital Media & Entertainment,Custom Villa Playlist,High amusement and hype over viral music commentary. Quick playlist saves.,0.2,0.8,0.3612
+3,Avène,Beauty & Cosmetics,Skincare Routine Request,Massive organic buy-rates. Fans flooding retail sites to clear inventory.,0.224,0.776,0.3818
+4,Dunkin’,Food & Beverage,$6 Meal Deal Campaign,"Universal nostalgia. Obsessed with meta-humor, girl chats, and slow-mo walks.",0.265,0.606,0.4215
+5,Charlotte Tilbury,Luxury Cosmetics,Digital Makeup Tutorials,Visual awe over transition from standard influencer setups to luxury cosmetics.,0.31,0.69,0.6705
+6,NYX & SheaMoisture,Beauty & Hair Care,Post-Villa Style Surge,Intense community support from natural hair creators replicating curl loops.,0.481,0.519,0.6705
+7,Shark Beauty,Hair Tools & Hair Care,FlexStyle Routine Rollout,Praised for natural on-camera charisma. Commended as prime commercial talent.,0.655,0.345,0.886
+8,Maybelline New York,Corporate Cosmetics,Peacock Summer Integration,Massive comedic hit. Soap-opera style allowed acting skills to shine.,0.231,0.769,0.4019
+9,Skylar Fragrance,Luxury Fragrance & Retail,Chief Creative Officer Hire,Initial Reddit perfume community skepticism shifted to awe after massive sales.,0.3,0.6,0.6124
+10,NYX Professional Makeup,Beauty & Cosmetics,Season 7 Finale Nicolandria Combo,Massive viral sell-out buzz. Mixed with mild Reddit skepticism regarding relationship PR longevity.,0,0.889,-0.128
+11,Agua de Kefir,Food & Beverage,Post-Villa Press Wellness Ad,"High fan amusement over the ""steamy"" tone. Jokes on quick influencer product shifts.",0.405,0.595,0.7003
+12,Sweetgreen,Fast-Casual Dining,"ZCON ""Ranchy Baddie Bowl""",Intense Southern pride over Alabama native collab. High volume of TikTok taste-test videos.,0.252,0.748,0.4019
+13,Jose Cuervo,Wine & Spirits,Summer Entertainment Campaign,Praised for high production value. Reddit validated it as a premium celebrity booking.,0.429,0.571,0.7579
+14,Independent Modeling,Fashion & Speaking,Post-Split Pivot (Orlando to LA),"Huge wave of community empowerment and Haitian pride (""Sak pase?""). Labeled a class act.",0.281,0.719,0.5719
+15,Barbie / Mattel,Toys & Entertainment,Coachella Weekend 1 Experiential,Complete alignment of brand aesthetic. Visual awe over crossover into mainstream fashion influence.,0.273,0.727,0.6705
+16,Poppi,Beverage,Punch Pop X Love Island Release,High visibility via national Target retail displays. Fans posting videos hunting for her face.,0,1,0
