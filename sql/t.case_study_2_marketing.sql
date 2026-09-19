@@ -1,3 +1,4 @@
+```sql
 WITH prepared_marketing_metrics AS (
     SELECT 
         trend_id, brand_partner, campaign_type, placement_driver,
@@ -13,3 +14,4 @@ SELECT
     ) AS rank_by_sentiment
 FROM prepared_marketing_metrics
 ORDER BY campaign_type, rank_by_sentiment;
+```
