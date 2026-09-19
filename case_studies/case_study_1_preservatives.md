@@ -7,7 +7,7 @@
 
 The primary objective of this empirical audit is to isolate the structural data gap between consumer-facing binary hazard scores and actual clinical toxicological thresholds. This project establishes the end-to-end analytics engineering pipeline—spanning programmatic text parsing, multi-layered cloud data warehousing, and interactive risk matrices—to prove how narrow corporate compliance tracking can mask critical cumulative toxicity hazards. 
 
-Rather than resolving every formulation to a flat pass, this model applies a custom multi-variable risk engine — the **MCSI Public Health Exposure Decision Model** — to dynamically identify genuine chemical anomalies and hidden synergistic exposure paths, routing each product into one of three defensible outcomes: **`Safe Harbor`**, **`Conditional Warning`**, or **`High-Risk Mismatch`**.
+Rather than resolving every formulation to a flat pass, this model applies a custom multi-variable risk engine — the **MCSI Public Health Exposure Decision Model** — to dynamically identify genuine chemical anomalies and hidden exposure paths, routing each product into one of three defensible outcomes: **`Safe Harbor`**, **`Conditional Warning`**, or **`High-Risk Mismatch`**.
 
 ---
 
@@ -182,3 +182,5 @@ An analysis of the 20-product live retail dataset reveals four critical architec
 2. **The Water-Content Preservative Dependency:** Products containing Aqua (Water) as a primary ingredient — such as *Essence What a Tint!* and the *I'M MEME Water Gel Tints* — rely on complex, eco-certified organic acid networks (`Dehydroacetic Acid`, `Sodium Benzoate`) and natural bio-ferments (`Radish Root Ferment Filtrate`) to guard against bacterial growth, allowing them to clear the model's Safe Harbor tier cleanly.
 3. **Anhydrous Moisture-Starvation Mechanics:** High-scoring lipid formulations like the *Essence Super Balm* remove water entirely, relying on dense resins (`Shorea Robusta Resin`) and concentrated Vitamin E (`Tocopherol`) to starve potential microbes of moisture — achieving a preservative-free Safe Harbor status without triggering any conditional flags.
 4. **The Synergistic Exposure Discovery:** Products like the *Essence Hydra Kiss Lip Oil*, layering Phenoxyethanol against three separate fragrance allergens (Linalool, Limonene, Citronellol), resolve to a 70/100 Conditional Warning score under this model — a result invisible to any binary pass/fail system. This intermediate scoring tier is the study's core methodological argument: genuine public health risk assessment requires evaluating ingredient combinations, not scoring each chemical in isolation.
+
+### 👉 **Next Page:** [View the Full, Deep-Dive Case Study 2 NLP Sentiment Analysis here](./case_study_2_media_loops.md)
