@@ -1,6 +1,7 @@
 -- Pipeline Query: Public Health Exposure Decision Engine (3-Tier Model)
 -- Repository: multicultural-cosmetic-safety-model/sql/t.case_study_1_logic.sql
 
+```sql
 WITH allergen_flags AS (
     SELECT
         product_id,
@@ -42,3 +43,4 @@ SELECT
 
 FROM allergen_flags
 ORDER BY mcsi_score ASC;
+```
