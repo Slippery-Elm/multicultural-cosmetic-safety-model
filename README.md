@@ -1,7 +1,7 @@
 # Multicultural Cosmetic Safety Index (MCSI) & Risk Transformation Model💄
 
 ## 📖 Project Overview
-This repository contains a full-stack data project that evaluates, transforms, and analyzes the public health impacts of toxic cosmetic compounds and textile chemicals on sensitive and multicultural skin types. Grounded in public health behavior frameworks (MPH), this project bridges environmental toxicology and modern data infrastructure to score product safety metrics dynamically.
+This repository contains a full-stack data enterprise bridging public health frameworks, environmental toxicology, and digital media analytics. By leveraging cloud architecture and natural language processing (NLP), this project tracks product safety metrics across international boundaries and models community-level sentiment metrics surrounding toxicological exposure events and commercial influencer syndication campaigns.
 
 ## 🛠️ Technical Stack
 * **Data Engineering / Storage:** Google BigQuery, SQL (ETL processing, production schema layout, data modeling, multi-dataset integration)
